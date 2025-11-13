@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Standard",
+    "price": 0,
+    "file": "sprites0.png"
+  },
+  {
+    "name": "Set 1",
+    "price": 50,
+    "file": "sprites1.png"
+  },
+  {
+    "name": "Set 2",
+    "price": 100,
+    "file": "sprites2.png"
+  },
+  {
+    "name": "Set 3",
+    "price": 150,
+    "file": "sprites3.png"
+  },
+  {
+    "name": "Set 4",
+    "price": 200,
+    "file": "sprites4.png"
+  },
+  {
+    "name": "Set 5",
+    "price": 250,
+    "file": "sprites5.png"
+  }
+]

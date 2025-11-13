@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Pay</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Für Icons: -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header-title">Tic Tac Pay</div>
+    <div class="header-actions">
+      <div id="coin-display" aria-label="Coins" title="Coins: 0" class="coin-display">
+        <i class="fas fa-coins"></i> <span id="coin-count">0</span>
+      </div>
+      <button id="mode-switch" aria-label="Dark/Light Mode Switch"><i class="fas fa-moon"></i></button>
+      <button id="user-settings" aria-label="Benutzer Einstellungen"><i class="fas fa-user"></i></button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="board-container">
+      <div class="board">
+        <!-- 3x3 Felder -->
+        <div class="cell"></div><div class="cell"></div><div class="cell"></div>
+        <div class="cell"></div><div class="cell"></div><div class="cell"></div>
+        <div class="cell"></div><div class="cell"></div><div class="cell"></div>
+      </div>
+    </div>
+    <aside class="shop">
+      <h2>Shop</h2>
+      <div class="shop-items" id="shopItemsContainer">
+      <!-- Buttons via JS eingefügt -->
+      </div>
+    </aside>
+    <!-- Sieger-Popup -->
+    <div class="modal" id="winModal">
+      <div class="modal-content">
+        <div id="winText"></div>
+        <button id="resetButton">Neues Spiel</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>&copy; 2025 Davy Kyrian</span>
+    <nav>
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutz</a>
+    </nav>
+  </footer>
+</body>
+</html>
