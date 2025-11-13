@@ -20,7 +20,7 @@
   let gameActive = true;
   let currentSprite = 'sprites0.png'; // Standard Sprite
   let spriteSets = [];
-  let coins = 100; // Nur für Demo Zwecke!!!!
+  let coins = 10000; // Nur für Demo Zwecke!!!!
 
   // Gewinnkombinationen
   const winCombos = [

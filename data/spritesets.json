@@ -18,15 +18,5 @@
     "name": "Set 3",
     "price": 150,
     "file": "sprites3.png"
-  },
-  {
-    "name": "Set 4",
-    "price": 200,
-    "file": "sprites4.png"
-  },
-  {
-    "name": "Set 5",
-    "price": 250,
-    "file": "sprites5.png"
   }
 ]
